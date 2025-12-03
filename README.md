@@ -226,5 +226,4 @@ GNU GPLv3 — open and free to modify.
 
 ## ❤️ Acknowledgements
 
-Metadata sourced from the **One Pace Episode Guide**.  
-Inspired by `ladyisatis/one-pace-metadata`.
+Metadata sources from `jasanpreetn9/onepace-metadata`.
