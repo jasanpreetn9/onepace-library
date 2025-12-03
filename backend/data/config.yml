@@ -1,0 +1,20 @@
+# Server settings
+port: "8989"
+
+# Paths
+libraryPath: "./media"
+downloadPath: "./downloads"
+libraryJsonPath: "./data/library.json"
+
+# Metadata API
+metadata:
+  episodesUrl: "https://raw.githubusercontent.com/jasanpreetn9/onepace-metadata/refs/heads/main/data/episodes.json"
+  arcsUrl: "https://raw.githubusercontent.com/jasanpreetn9/onepace-metadata/refs/heads/main/data/arcs.json"
+
+
+# qBittorrent
+qbittorrent:
+  enabled: true
+  host: "http://192.168.1.207:8080"
+  username: "admin"
+  password: "Italy916!"

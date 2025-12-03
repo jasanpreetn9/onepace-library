@@ -1,0 +1,17 @@
+/* lib/app.css */
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global theme */
+body {
+    font-family: system-ui, sans-serif;
+    background: #1c1f26;
+    color: #e5e7eb;
+    height: 100vh;
+    display: flex;
+}
+
