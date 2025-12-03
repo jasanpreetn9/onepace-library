@@ -8,7 +8,7 @@ Tracks episodes, monitors new releases, downloads automatically through qBittorr
 ---
 
 <div align="center">
-      <img  src="https://github.com/jasanpreetn9/onepace-library/blob/master/public/view.png?raw=true" >
+      <img  src="https://github.com/jasanpreetn9/onepace-library/blob/main/public/view.png?raw=true" >
 
   </div>
 
