@@ -1,5 +1,10 @@
-// place files you want to import through the `$lib` alias in this folder.
-import { writable } from "svelte/store";
+	import { Library, Download, Activity, Clock, Settings, Menu, X } from 'lucide-svelte';
 
-export const arcs = writable<UnifiedArc[]>([]);
-export const selectedArc = writable<number | null>(null);
+
+export const navigationItems = [
+    { href: '/library', label: 'Library', icon: Library },
+    { href: '/wanted', label: 'Wanted', icon: Download },
+    { href: '/activity', label: 'Activity', icon: Activity },
+    { href: '/history', label: 'History', icon: Clock },
+    { href: '/settings', label: 'Settings', icon: Settings }
+];

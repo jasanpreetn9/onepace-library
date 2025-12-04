@@ -19,5 +19,7 @@ type UnifiedArc = {
     subtitleLanguages: string;
     resolution: string;
     status: string;
+    episodeCount: number;
+    episodesDownloaded: number;
     episodes: UnifiedEpisode[];
 }

@@ -8,10 +8,12 @@ export const api = {
         const unifiedArcs: UnifiedArc[] = resp.map((arc: any) => ({
             arc: arc.arc,
             title: arc.title,
-            audio_languages: arc.audioLanguages,
-            subtitle_languages: arc.subtitleLanguages,
+            audio_languages: arc.audio_languages,
+            subtitle_languages: arc.subtitle_languages,
             resolution: arc.resolution,
             status: arc.status,
+            episodeCount: 12,
+            episodesDownloaded: 5,
             episodes: arc.episodes.map((ep: any) => ({
                 arc: ep.arc,
                 episode: ep.episode,
